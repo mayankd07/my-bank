@@ -111,7 +111,7 @@ export default function Transfer(props) {
                                 </div>
                             </div>
                         </div>
-                        <button className="btn" type="submit" value="Submit" align="center">
+                        <button className="btn btn-submit" type="submit" value="Submit" align="center">
                             Transfer </button>
                     </form>
                 </div>
