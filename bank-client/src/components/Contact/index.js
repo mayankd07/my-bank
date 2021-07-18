@@ -1,12 +1,14 @@
 import React from 'react'
-import { MDBIcon } from "mdbreact";
+import Email from '../../images/email.png'
+import Phone from '../../images/phone.png'
+import Pin from '../../images/pin.png'
 
 export default function Contact() {
     return (
         <div className="third">
             <div className="section-title mb-5">
-                <h6>Contact</h6>
-                <h2>Get In Touch</h2>
+                <h6 className="crete">Get In Touch</h6>
+                <h2 className="crete">Contact Us</h2>
             </div>
             <div className="row">
                 <div className="col-12 col-md-12 col-lg-8">
@@ -40,30 +42,30 @@ export default function Contact() {
                 </div>
                 <div className="col-12 col-md-12 col-lg-4">
                     <div className="contact-item d-flex">
-                        <MDBIcon icon="envelope" size="3x" className="cyan-text pr-3 " />
+                        <img src={Email} alt="email" className="contact-png" />
                         <div className="contact-content">
-                            <h5>Email Address:</h5>
+                            <h5 className="crete">Email Address:</h5>
                             <h6 className="text-muted">dungarwalmayank6@gmail.com</h6>
                         </div>
                     </div>
                     <div className="contact-item d-flex">
-                        <MDBIcon icon="phone-alt" size="3x" className="cyan-text pr-3 " />
+                        <img src={Phone} alt="phone" className="contact-png" />
                         <div className="contact-content">
-                            <h5>Phone No:</h5>
-                            <h6 className="text-muted">+91 12345 67890 , +91 11111 0000</h6>
+                            <h5 className="crete">Phone No:</h5>
+                            <h6 className="text-muted">+91 12345 67890 , +91 19283 74465</h6>
                         </div>
                     </div>
                     <div className="contact-item d-flex">
-                        <MDBIcon icon="map-marker-alt" size="3x" className="cyan-text pr-3 " />
+                        <img src={Pin} alt="location" className="contact-png" />
                         <div className="contact-content">
-                            <h5>Office Address:</h5>
-                            <h6 className="text-muted">123 XYZ Street, New Delhi, India, 123456</h6>
+                            <h5 className="crete">Office Address:</h5>
+                            <h6 className="text-muted">123 sector 24, Chandigarh, India, 123456</h6>
                         </div>
                     </div>
                 </div>
             </div>
             <div >
-                <button className="btn" type="submit">Send Message</button>
+                <button className="btn-submit crete" type="submit">Submit</button>
             </div>
         </div>
     )

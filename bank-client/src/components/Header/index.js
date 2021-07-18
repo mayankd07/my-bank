@@ -20,7 +20,7 @@ window.addEventListener('scroll', changeBackground);
     return (
         <div id="header">
             <nav className={navbar ? "navbar navbar-expand-lg fixed-top scroll" : "navbar navbar-expand-lg fixed-top"}>
-            <Link to="/" ><h1 className={navbar ? "brand scroll-a" : "brand"}>Capital Banking</h1> </Link>
+            <Link to="/" ><h1 className={navbar ? "brand scroll-a" : "brand"}>My Bank</h1> </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"><MDBIcon icon="bars" className={navbar ? "bars scroll-button" : "bars" } /></span>

@@ -6,7 +6,7 @@ const Footer = (props) => {
         <footer className="footer" id="footer">
             <div className="foot"><br />
                 <span className="navbar-text">
-                    © 2020 Capital Banking | All rights reserved.
+                    © 2021 My Bank | All rights reserved.
 				</span>
             </div>
             <br />
