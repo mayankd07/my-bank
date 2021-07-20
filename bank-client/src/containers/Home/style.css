@@ -149,3 +149,36 @@ hr{
     transform: scale(1.02);
     cursor: default;
 }
+
+/* @media (max-width:641px){
+    .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .wrapper{
+        padding: 0 8rem;
+    }
+    .card img{
+        width: 20%;
+    }
+    div.card{
+        margin-right: 0 60px;
+    }
+} */
+@media (max-width:1024px) {
+    .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .wrapper{
+        padding: 0 3rem;
+    }
+    .card img{
+        width: 70px;
+    }
+    div.card{
+        margin-right: 0 60px;
+    }
+}
